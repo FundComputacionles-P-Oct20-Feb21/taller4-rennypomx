@@ -1,0 +1,46 @@
+Algorit-7
+1. Inicio.
+2. Se solicita ingresar la edad del usuario.
+3. Se pide el valor de netflix.
+4. Se pide el valor de youtube premium.
+5. Se pide el valor de dropbox.
+6. Se pide el valor de spotify.
+7. Se suman los valores de todos los servivios digitales.
+8. Se calcula el 20% y se le resta al total de la suma solo si el usuario tiene menos de 30 años de edad.
+9. Se presenta el valor total a pagar mensual de servicios digitales de una persona.
+10. Fin.
+
+        Miniespecificacion
+
+
+1. Inicio
+//declarar variables
+2. edad i[16,78]
+3. costo_netflix, d[0,n]
+4. costo_youtube, d[0,n]
+5. costo_dropbox, d[0,n]
+6. costo_spotify, d[0,n]
+7. suma, d[0,n]
+8. descuento, d[0,n]
+9. valor_con_descuento, d[0,n]
+//pedir datos por teclado - entradas
+10. Escribir "Ingresar edad del usuario"
+11. Leer edad
+12. Escribir "Ingresar costo del servicio digital Netflix"
+13. Leer costo_netflix
+14. Escribir "Ingresar costo del servicio digital Youtube Premium"
+15. Leer costo_youtube
+16. Escribir "Ingresar costo del servicio digital Dropbox"
+17. Leer costo_dropbox
+18. Escribir "Ingresar costo del servicio digital Spotify"
+19. Leer costo_spotify
+//proceso
+20. suma <-- costo_netflix + costo_youtube + costo_dropbox + costo_spotify
+21. descuento <-- suma * 20%
+22. valor_con_descuento <-- suma - descuento
+//salida
+23. Si edad <30 Entonces
+24. 	Escribir "El valor total a pagar con el 20% de descuento es: " + valor_con_descuento
+25. Sino
+26. 	Escribir "El valor total a pagar es: " + suma
+27. Fin

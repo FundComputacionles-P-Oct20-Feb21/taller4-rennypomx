@@ -1,0 +1,25 @@
+Algoritmo-3
+1. Inicio.
+2.Se ingresa el costo por minutos.
+3.Se ingresa el numero de minutos consumidos.
+4.Se multiplica ambos valores. 
+5.Se preenta el valor obtenido de la planilla de telefono.
+6. Fin
+
+      Miniespecificacion
+
+1. Inicio
+//declarar variables
+2. costo_minuto, d[0,n]
+3. minutos_consumidos, d[0,n]
+4. producto, d[0,n]
+//pedir datos por teclado - entradas
+5. Escribir "Ingresar el costo por minutos"
+6. Leer costo_minuto
+7. Escribir "Ingresar los minutos consumidos en el mes"
+8. Leer minutos_consumidos
+//proceso
+9. producto <-- costo_minuto * minutos_consumidos
+//salida
+10. Escribir "El valor de la planilla: " + producto
+11. Fin

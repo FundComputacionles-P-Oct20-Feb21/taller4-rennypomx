@@ -1,0 +1,30 @@
+Algoritmo-1
+1. Inicio.
+2.Se pide el valor de la base del triangulo.
+3.Se pide el valor de la altura del triangulo.
+4.Se multiplica los valores de la base por la altura
+5.Se divide el valor obtenido para 2
+6.Se muestra el valor del area de un triangulo
+7. Fin
+
+   Miniespecificacion: 
+
+
+1. Inicio.
+
+//declarar variables
+2. base, d[0,n]
+3. altura, d[0,n]
+4. producto, d[0,n]
+5. cociente, d[0,n]
+//pedir datos por teclado - entradas
+6. Escribir "Ingresar la base del triángulo"
+7. Leer base
+8. Escribir "Ingresar altura del triángulo"
+9. Leer altura
+//proceso
+10. producto <-- base * altura
+11. cociente <-- producto / 2
+//salida
+13. Escribir "El área del triángulo es: " + cociente
+14.Fin
